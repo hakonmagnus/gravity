@@ -7,6 +7,10 @@
 
 ![GitHub](https://img.shields.io/github/license/hakonmagnus/gravity)
 ![Lines of code](https://img.shields.io/tokei/lines/github/hakonmagnus/gravity)
+[![Build Status](https://app.travis-ci.com/hakonmagnus/gravity.svg?branch=master)](https://app.travis-ci.com/hakonmagnus/gravity)
+[![Build status](https://ci.appveyor.com/api/projects/status/21ojmw3eadnhfk3x/branch/master?svg=true)](https://ci.appveyor.com/project/hakonmagnus/gravity/branch/master)
+[![codecov](https://codecov.io/gh/hakonmagnus/gravity/branch/master/graph/badge.svg?token=FJIQQFVFDK)](https://codecov.io/gh/hakonmagnus/gravity)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/dd957906915e4a6787ad01223a7f506b)](https://www.codacy.com/gh/hakonmagnus/gravity/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hakonmagnus/gravity&amp;utm_campaign=Badge_Grade)
 
   <br>
   <h1>Gravity</h1>
