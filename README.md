@@ -1,16 +1,14 @@
 <div align="center">
-    <a href="https://newtonframework.com/gravity">
-        <img width="200" height="200" src="https://github.com/hakonmagnus/gravity/blob/master/docs/gravity.svg">
-    </a>
-    <br>
-    <br>
-
-    <br>
-    <h1>Gravity</h1>
-    <p>
-        Gravity is a C++ library for creating custom web servers using the C++ language. It is part
-        of the larger <a href="https://github.com/hakonmagnus/newton" target="_blank">Newton Framework</a> project, but can be used on its own, which is why it gets its own name.
-    </p>
+  <a href="https://newtonframework.com/gravity">
+    <img width="200" height="200" src="https://github.com/hakonmagnus/gravity/blob/master/docs/gravity.svg">
+  </a>
+  <br>
+  <br>
+  <h1>Gravity</h1>
+  <p>
+    Gravity is a C++ library for creating custom web servers using the C++ language. It is part of the larger
+    <a href="https://github.com/hakonmagnus/newton" target="_blank">Newton Framework</a> project, but can be used on its own, which is why it gets its own name.
+  </p>
 </div>
 
 ## Table of Contents
