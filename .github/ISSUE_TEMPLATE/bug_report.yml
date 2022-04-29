@@ -22,7 +22,7 @@ body:
     id: repro
     attributes:
       label: How can we reproduce the bug?
-    validation:
+    validations:
       required: true
 
   - type: textarea

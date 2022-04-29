@@ -4,6 +4,11 @@
   </a>
   <br>
   <br>
+
+![GitHub](https://img.shields.io/github/license/hakonmagnus/gravity)
+![Lines of code](https://img.shields.io/tokei/lines/github/hakonmagnus/gravity)
+
+  <br>
   <h1>Gravity</h1>
   <p>
     Gravity is a C++ library for creating custom web servers using the C++ language. It is part of the larger
@@ -57,4 +62,4 @@ Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for information about how to con
 <h2 align="center">License</h2>
 
 This project is licensed under the [MIT License](./LICENSE).
-
+g

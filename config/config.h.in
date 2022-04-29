@@ -1,0 +1,15 @@
+//
+// Copyright (c) 2022 Hákon Hjaltalín
+//
+// This project is licensed under the MIT License. Please see LICENSE
+// or go to https://opensource.org/licenses/MIT for more information.
+//
+
+#pragma once
+
+#define GR_VERSION_MAJOR @CMAKE_PROJECT_VERSION_MAJOR@
+#define GR_VERSION_MINOR @CMAKE_PROJECT_VERSION_MINOR@
+#define GR_VERSION_PATCH @CMAKE_PROJECT_VERSION_PATCH@
+#define GR_VERSION "v@CMAKE_PROJECT_VERSION_MAJOR@.@CMAKE_PROJECT_VERSION_MINOR@.@CMAKE_PROJECT_VERSION_PATCH@"
+
+@GR_HEADER_SHARED_LIBS@

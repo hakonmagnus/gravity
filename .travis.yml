@@ -1,0 +1,35 @@
+sudo: required
+language: cpp
+
+matrix:
+  include:
+    - os: linux
+      dist: xenial
+      compiler: gcc
+      env:
+        - MATRIX_EVAL="CC=gcc-7 && CXX=g++-7"
+      addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+          packages:
+            - cmake
+            - g++-7
+            - lcov
+
+before_install:
+  - eval "${MATRIX_EVAL}"
+
+install:
+  - sudo pip install codecov
+
+script:
+  - mkdir -p build
+  - cd build
+  - cmake -DCMAKE_BUILD_TYPE=Coverage ..
+  - make
+  - make coverage
+  - ctest
+
+after_success:
+  - codecov -t 17fd3be1-8bf9-49d9-9cce-e834a69be4f5 -X gcov
