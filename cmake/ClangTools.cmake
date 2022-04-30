@@ -15,6 +15,7 @@ if (CLANG_FORMAT)
     add_custom_target(
         clang-format
         COMMAND ${CLANG_FORMAT}
+        -style=file
         -i
         ${GR_SOURCE_FILES}
         ${GR_INCLUDE_FILES}

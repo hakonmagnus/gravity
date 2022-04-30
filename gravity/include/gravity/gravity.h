@@ -8,4 +8,3 @@
 #pragma once
 
 #include "gravity/base/GrDefs.h"
-
